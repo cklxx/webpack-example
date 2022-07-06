@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config ./webpack.config.js"
+    "dev": "webpack --config ./webpack.config.js",
+    "setup": "npm --registry https://registry.npm.taobao.org install"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "vue": "^3.2.36",
+    "vue-loader": "^17.0.0",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0"
   }
